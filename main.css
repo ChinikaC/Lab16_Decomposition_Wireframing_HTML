@@ -1,0 +1,104 @@
+body {
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    text-align:left;
+    background-color: black;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+header {
+    background-color: black;
+}
+
+.main_nav>ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(28, 26, 26);
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+
+}
+
+.main_nav>ul>li {
+    list-style: none;
+}
+
+.main_nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+
+}
+
+#main_div>img>img {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+} 
+
+.images {
+    background-color: black;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-right: 1em;
+}
+
+.designer_nav>ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+}
+
+.designer_nav2>ul>li {
+    list-style: none;
+}
+
+.designer_nav2>ul>li>a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+
+}
+
+.designer_nav2>ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+}
+
+.designer_nav>ul>li {
+    list-style: none;
+}
+
+.designer_nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+
+}
+
+.contact__form {
+    text-align: left;
+    size: 100px;
+}
+
+footer {
+    background-color: greenyellow;
+}
+
+.footer__left {
+    text-align: left;
+}
+
+.footer__right {
+    text-align: right;
+}
