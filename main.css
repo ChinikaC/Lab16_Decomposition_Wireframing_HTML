@@ -9,19 +9,19 @@ body {
 }
 
 header::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  content: "ORDER BY 9PM FOR NEXT DAY DELIVERY";
-  background-color: rgba(226, 255, 8, 0.961);
-  color: black;
-  font-size: 12px;
-  font-family:"Gotham HTF",Arial,Helvetica,sans-serif!important;
-  height: 20px;
-  padding-top: 5px;
-  text-align: center;
-  letter-spacing: 0.1em; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    content: "ORDER BY 9PM FOR NEXT DAY DELIVERY";
+    background-color: rgba(226, 255, 8, 0.961);
+    color: black;
+    font-size: 12px;
+    font-family:"Gotham HTF",Arial,Helvetica,sans-serif!important;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    letter-spacing: 0.1em; 
 }
 
 
@@ -142,16 +142,16 @@ button {
     font-weight: 1000;
     padding: 15px 32px;
     border: none;
-  font-size: 14px;
-  font-weight: 400;
-  transition-duration: 0.3s;
-  font-weight: bold;
+    font-size: 14px;
+    font-weight: 400;
+    transition-duration: 0.3s;
+    font-weight: bold;
 }
 
 button:hover {
-        background-color: rgba(226, 255, 8, 0.961);
-        color: black
-      }
+    background-color: rgba(226, 255, 8, 0.961);
+    color: black
+}
 
 footer {
     background-color: rgba(226, 255, 8, 0.961);
@@ -159,10 +159,10 @@ footer {
     padding-right: 30%;
     margin-top: 1%;
     margin-bottom: 0;
-  display: flexbox; 
-  text-align: center;
-  align-items: center; 
-  height: 45px;
+    display: flexbox; 
+    text-align: center;
+    align-items: center; 
+    height: 45px;
 }
 
 .footer__left {
