@@ -1,15 +1,18 @@
 body {
     color: black;
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
 }
 
 h1 {
     font-size: 30px;
     text-align:left;
     background-color: black;
-    color: white;
+    color: rgba(226, 255, 8, 0.961);
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    padding-left: 0.6em;
 }
 
 header {
@@ -91,14 +94,31 @@ header {
     size: 100px;
 }
 
+.sign__up {
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
 footer {
-    background-color: greenyellow;
+    background-color: rgba(226, 255, 8, 0.961);
+    padding-left: 2%;
+    padding-right: 30%;
+    margin-top: 1%;
+  display: flexbox; 
+  text-align: center;
+  align-items: center; 
+  height: 45px;
 }
 
 .footer__left {
     text-align: left;
+    font-size: 10px;
 }
 
 .footer__right {
-    text-align: right;
+    text-align: left;
+    font-size: 9px;
 }
+
+
